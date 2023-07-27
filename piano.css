@@ -1,0 +1,141 @@
+html {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-image: url("wood.jpg");
+    background-size: 100vw;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 3vh;
+    background: linear-gradient(120deg, rgb(172, 219, 240), rgb(248, 148, 125), rgb(149, 153, 174));
+    opacity: 80%;
+    border-radius: 30px;
+    color: rgb(13, 13, 13);
+    font-family: cursive;
+}
+
+.pianoBackground {
+    margin-top: 5vw;
+    padding: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background: linear-gradient(30deg, rgb(144, 5, 190), rgb(48, 149, 164), rgb(206, 111, 141));
+    width: 620px;
+    height: auto;
+    border-color: blueviolet;
+    border-radius: 50px;
+    border-style: groove;
+    box-shadow: 20px 20px 70px 5px;
+    border-width: 5px;
+    gap: 1px;
+}
+
+.white {
+    background-color: rgb(250, 253, 254);
+    width: 80px;
+    height: 300px;
+    display: flex;
+    border-color: black;
+    border-width: 1px;
+    border-style: groove;
+    border-radius: 25px;
+    padding: 3px;
+    box-shadow: 10px 10px 30px 1px;
+
+}
+
+.black {
+    background-color: rgb(35, 33, 33);
+    width: 55px;
+    height: 200px;
+    display: flex;
+    border-color: rgba(5, 5, 5, 0.8);
+    border-width: 1px;
+    border-style: groove;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: 1px 1px 20px 1px;
+}
+
+.w {
+    margin-left: 60px;
+    color: azure;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: large;
+}
+
+.e {
+    margin-left: 150px;
+    color: azure;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: large;
+}
+
+.r {
+    color: azure;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: large;
+    margin-left: 240px;
+}
+
+.t {
+    color: azure;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: large;
+    margin-left: 415px;
+}
+
+.y {
+    color: azure;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: large;
+    margin-left: 505px;
+}
+
+.a,
+.s,
+.d,
+.f,
+.g,
+.h,
+.j {
+    color: rgb(24, 24, 24);
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: large;
+}
+
+footer {
+    padding: 10px;
+    color: rgb(242, 239, 237);
+    margin-top: 10vh;
+    background: linear-gradient(300deg, rgb(188, 143, 203), rgb(54, 9, 89), rgb(233, 95, 16));
+    opacity: 60%;
+
+}
+
+.keyBlack {
+    background: linear-gradient(210deg, rgb(50, 47, 47), rgb(12, 12, 12), rgb(178, 191, 202));
+    box-shadow: 1px 10px 50px rgb(232, 41, 7);
+}
+
+.keyWhite {
+    background: linear-gradient(340deg, rgb(238, 107, 107), rgb(238, 238, 176), rgb(255, 255, 155));
+    box-shadow: 1px 10px 50px rgb(232, 41, 7);
+}
